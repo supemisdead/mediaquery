@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+}
+.info{
+  text-align:center;
+  background:yellow;
+  padding:5px; 
+}
+.title{
+  text-align:center;
+  background:lightgreen;
+  padding:20px; 
+}
+.navbar{
+  background:black;
+  display:flex;
+  
+  
+}
+
+a{
+  color:white;
+  text-align:center;
+  padding:14px 20px;
+}
+
+.row{
+  display:flex;
+}
+.side{
+  flex:20%;
+  background: lightblue;
+}
+
+.main{
+  flex:80%;
+  background:red; 
+}
+.footer{
+  text-align:center;
+  background:gray; 
+  padding:5px;
+  
+}
+.profil{
+  margin-left:auto;
+  margin-right:auto; 
+  border-radius:120px; 
+}
+
+@media only screen and (max-width: 600px) {
+  .title, .navbar, .row{
+    flex-direction:column;
+  }
+}
